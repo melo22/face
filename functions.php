@@ -693,10 +693,7 @@ function theme_options_page() {
 
             <?php submit_button(); ?>
         </form>
-        <div>
-            <p>登録サイトを増やしたり投稿間隔の調整や機能を増やしたい方はご連絡ください<a href="mailto:info@milkycocoa.com">こちらから</a>
-            </p>
-        </div>
+      
     </div>
     <?php
 }
