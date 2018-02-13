@@ -11,6 +11,8 @@ sidebars, comments, etc.
 // LOAD face CORE (if you remove this, the theme will break)
 require_once( 'library/face.php' );
 
+
+
 // CUSTOMIZE THE WORDPRESS ADMIN (off by default)
 // require_once( 'library/admin.php' );
 
@@ -693,7 +695,7 @@ function theme_options_page() {
 
             <?php submit_button(); ?>
         </form>
-      
+
     </div>
     <?php
 }
