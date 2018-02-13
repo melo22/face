@@ -69,8 +69,8 @@ add_action( 'after_setup_theme', 'face_ahoy' );
 
 require 'theme-update-checker.php'; //ライブラリのパス
 $example_update_checker = new ThemeUpdateChecker(
-'example-theme', //テーマフォルダ名
-'https://milkycocoa.com/update-info.json' //JSONファイルのURL
+'face-master', //テーマフォルダ名
+'https://milkycocoa.com/theme_update-info.json' //JSONファイルのURL
 );
 
 /************* OEMBED SIZE OPTIONS *************/
